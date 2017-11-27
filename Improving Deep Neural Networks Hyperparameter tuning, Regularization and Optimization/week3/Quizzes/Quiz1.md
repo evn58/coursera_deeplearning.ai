@@ -10,7 +10,7 @@
 ### 4. If you think β (hyperparameter for momentum) is between on 0.9 and 0.99, which of the following is the recommended way to sample a value for beta?
 ```
 r = np.random.rand()
-beta = 1-10**(- r + 1) 
+beta = r*0.09 + 0.9 
 ```
 ### 5. Finding good hyperparameter values is very time-consuming. So typically you should do it once at the start of the project, and try to find very good hyperparameters so that you don’t ever have to revisit tuning them again. True or false?
 * **False**
