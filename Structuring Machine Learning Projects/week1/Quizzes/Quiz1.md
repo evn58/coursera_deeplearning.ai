@@ -35,7 +35,8 @@
 * **You should try to get a bigger dev set.**
 
 ### 12. What can you conclude? (Check all that apply.)
-**It is now harder to measure avoidable bias, thus progress will be slower going forward.**
+* **It is now harder to measure avoidable bias, thus progress will be slower going forward.**
+* **If the test set is big enough for the 0.05% error estimate to be accurate, this implies Bayes error is ≤0.05**
 
 ### 13. It turns out Peacetopia has hired one of your competitors to build a system as well. Your system and your competitor both deliver systems with about the same running time and memory size. However, your system has higher accuracy! However, when Peacetopia tries out your and your competitor’s systems, they conclude they actually like your competitor’s system better, because even though you have higher overall accuracy, you have more false negatives (failing to raise an alarm when a bird is in the air). What should you do?
 **Rethink the appropriate metric for this task, and ask your team to tune to the new metric.**
@@ -44,5 +45,6 @@
 **Use the data you have to define a new evaluation metric (using a new dev/test set) taking into account the new species, and use that to drive further progress for your team.**
 
 ### 15. The City Council thinks that having more Cats in the city would help scare off birds. They are so happy with your work on the Bird detector that they also hire you to build a Cat detector. (Wow Cat detectors are just incredibly useful aren’t they.) Because of years of working on Cat detectors, you have such a huge dataset of 100,000,000 cat images that training on this data takes about two weeks. Which of the statements do you agree with? (Check all that agree.)
-**If 100,000,000 examples is enough to build a good enough Cat detector, you might be better of training with just 10,000,000 examples to gain a ≈10x improvement in how quickly you can run experiments, even if each model performs a bit worse because it’s trained on less data.**
-**Buying faster computers could speed up your teams’ iteration speed and thus your team’s productivity.**
+* **If 100,000,000 examples is enough to build a good enough Cat detector, you might be better of training with just 10,000,000 examples to gain a ≈10x improvement in how quickly you can run experiments, even if each model performs a bit worse because it’s trained on less data.**
+* **Buying faster computers could speed up your teams’ iteration speed and thus your team’s productivity.**
+* **Needing two weeks to train will limit the speed at which you can iterate.**
